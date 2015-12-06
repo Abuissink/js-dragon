@@ -22,27 +22,27 @@ var generateClass = function () {
   user = prompt("Are you a WARRIOR, MAGE, ROUGE, or ARCHER?").toUpperCase();
 switch (user) {
     case "WARRIOR":
-        alert("You are now a brave WARRIOR!");
+        console.log("You are now a brave WARRIOR!");
         noble = 1;
         foolhardy = 1;
         break;
     case "MAGE":
-        alert("You are a almighty MAGE!");
+        console.log("You are a almighty MAGE!");
         foolhardy = 1;
         magic = 1;
         break;
     case "ARCHER":
-        alert("You are a sly ARCHER. Great choice!");
+        console.log("You are a sly ARCHER. Great choice!");
         noble = 1;
         lurker = 1;
         break;
     case "ROUGE":
-        alert("You are now a cunning ROUGE!");
+        console.log("You are now a cunning ROUGE!");
         magic = 1;
         lurker = 1;
         break;
     default:
-        alert("I'm sorry, I don't understand. Assigned WARRIOR.");
+        console.log("I'm sorry, I don't understand. Assigned WARRIOR.");
         noble = 1;
         foolhardy = 1;
         break;
